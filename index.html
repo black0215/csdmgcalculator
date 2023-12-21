@@ -1,0 +1,59 @@
+<!-- FILEPATH: /src/html/index.html -->
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>데미지 계산기</title>
+    <script src="../js/script.js"></script>
+</head>
+
+<body>
+    <link rel="stylesheet" href="../css/styles.css">
+    <h1>데미지 계산기</h1>
+    <div class="wrapper">
+        <label for="skill_damage_increase">스킬데미지증가량:</label>
+        <input type="text" id="skillDamageIncrease" name="item1"><br><br>
+
+        <label for="base_skill_multiplier">기본스킬계수:</label>
+        <input type="text" id="baseSkillMultiplier" name="item2"><br><br>
+
+        <label for="attack_power">공격력:</label>
+        <input type="text" id="attackPower" name="item3"><br><br>
+
+        <label for="attack_power_by_hp">체력비례증가공격력:</label>
+        <input type="text" id="attackPowerByHp" name="item4"><br><br>
+
+        <label for="attacker_hp">공격자체력:</label>
+        <input type="text" id="attackerHp" name="item5"><br><br>
+
+        <label for="defense_ratio">방어율:</label>
+        <input type="text" id="defenseRatio" name="item6"><br><br>
+
+        <label for="team1_ability_power">1군능력치:</label>
+        <input type="text" id="team1AbilityPower" name="item7"><br><br>
+
+        <label for="team2_ability_power">2군능력치:</label>
+        <input type="text" id="team2AbilityPower" name="item8"><br><br>
+
+        <label for="compatibility_damage">상성피해량:</label>
+        <input type="text" id="compatibilityDamage" name="item9"><br><br>
+
+        <label for="strike_judgement">타격판정:</label>
+        <input type="text" id="strikeJudgement" name="item10"><br><br>
+
+        <label for="extra_stat">엑스트라스탯:</label>
+        <input type="text" id="extraStat" name="item11"><br><br>
+
+        <label for="max_damage_limit">최대피해제한:</label>
+        <input type="text" id="maxDamageLimit" name="item12"><br><br>
+
+        <input type="submit" value="제출" onclick="calculate()">
+    </div>
+    <div class="result">
+        <h2>결과</h2>
+        <p id="result"></p>
+    </div>
+</body>
+
+</html>
