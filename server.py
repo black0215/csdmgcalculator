@@ -46,8 +46,3 @@ def read_js(file_name: str):
 @app.post("/api/calculate")
 def calculate_(data: CalculateData):
     return {"result":calculate(dict(data))}
-
-
-if __name__ == "__main__":
-    import uvicorn
-    uvicorn.run(app, host="0.0.0.0", port=8000)
