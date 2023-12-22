@@ -1,0 +1,36 @@
+{
+  "url": "http://127.0.0.1:8000/api/calculate",
+  "method": "post",
+  "backup": {
+    "bodyType": "raw",
+    "data": {},
+    "bodySubType": "json",
+    "rawData": "{\"skill_damage_increase\":1.2,\"base_skill_multiplier\":1.2,\"attack_power\":3280,\"attack_power_by_hp\":1,\"attacker_hp\":1,\"defense_ratio\":0.2,\"team1_ability_power\":1,\"team2_ability_power\":1,\"compatibility_damage\":1,\"strike_judgement\":1,\"extra_stat\":1,\"max_damage_limit\":1}"
+  },
+  "headers": {
+    "Content-Type": "application/json"
+  },
+  "headersArray": [
+    [
+      "9819fef7-78aa-4a2c-8dd7-7453540fd70c",
+      "Content-Type",
+      "application/json",
+      true,
+      "STRING"
+    ]
+  ],
+  "data": {
+    "skill_damage_increase": 1.2,
+    "base_skill_multiplier": 1.2,
+    "attack_power": 3280,
+    "attack_power_by_hp": 1,
+    "attacker_hp": 1,
+    "defense_ratio": 0.2,
+    "team1_ability_power": 1,
+    "team2_ability_power": 1,
+    "compatibility_damage": 1,
+    "strike_judgement": 1,
+    "extra_stat": 1,
+    "max_damage_limit": 1
+  }
+}
